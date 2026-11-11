@@ -1,0 +1,14 @@
+{
+  "name": "citepress-crm",
+  "displayName": "CitePress CRM",
+  "version": "1.0.0",
+  "description": "Find and add contacts, draft emails for review, start sales sequences and search Lead Finder in CitePress CRM. Sign in with your CitePress CRM account; the connection works with your own permissions.",
+  "author": { "name": "BULDRR AI", "url": "https://crm.citepress.org/integrations/ai" },
+  "homepage": "https://crm.citepress.org/integrations/ai",
+  "license": "MIT",
+  "keywords": ["crm", "sales", "email", "contacts", "lead-generation", "citepress"],
+  "documentationUrl": "https://crm.citepress.org/integrations/ai",
+  "supportUrl": "https://crm.citepress.org/help",
+  "privacyPolicyUrl": "https://crm.citepress.org/privacy",
+  "termsOfServiceUrl": "https://crm.citepress.org/terms"
+}

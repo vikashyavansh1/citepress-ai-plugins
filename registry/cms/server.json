@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "org.citepress/cms",
+  "title": "CitePress CMS",
+  "description": "Write, edit and publish posts, pages, media, forms and redirects on your CitePress CMS site.",
+  "version": "1.0.0",
+  "websiteUrl": "https://citepress.org/guides",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://{site_host}/api/mcp",
+      "variables": {
+        "site_host": {
+          "description": "Your CitePress site's hostname, such as www.example.com (no https://, no path).",
+          "isRequired": true
+        }
+      }
+    }
+  ]
+}

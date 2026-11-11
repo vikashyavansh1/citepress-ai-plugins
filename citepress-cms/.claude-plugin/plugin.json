@@ -1,0 +1,31 @@
+{
+  "name": "citepress-cms",
+  "displayName": "CitePress CMS",
+  "version": "1.0.0",
+  "description": "Write, edit and publish on your own CitePress CMS site. Asks for your site's address; sign in as a site admin.",
+  "author": {
+    "name": "BULDRR AI",
+    "url": "https://citepress.org"
+  },
+  "homepage": "https://citepress.org/guides",
+  "license": "MIT",
+  "keywords": [
+    "cms",
+    "blog",
+    "publishing",
+    "seo",
+    "citepress"
+  ],
+  "documentationUrl": "https://citepress.org/guides",
+  "supportUrl": "https://citepress.org/contact",
+  "privacyPolicyUrl": "https://citepress.org/privacy",
+  "termsOfServiceUrl": "https://citepress.org/terms",
+  "userConfig": {
+    "site_url": {
+      "type": "string",
+      "title": "Your CitePress site",
+      "description": "Your site's address, such as https://www.example.com. Its MCP server is at /api/mcp on that address.",
+      "required": true
+    }
+  }
+}

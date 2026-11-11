@@ -1,0 +1,10 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "org.citepress/crm",
+  "title": "CitePress CRM",
+  "description": "Contacts, email drafts, sales sequences, pipeline, invoices and Lead Finder in CitePress CRM.",
+  "version": "1.0.0",
+  "websiteUrl": "https://crm.citepress.org/integrations/ai",
+  "icons": [{ "src": "https://crm.citepress.org/brand/citepress-crm-512.png", "mimeType": "image/png", "sizes": ["512x512"] }],
+  "remotes": [{ "type": "streamable-http", "url": "https://crm.citepress.org/api/mcp" }]
+}

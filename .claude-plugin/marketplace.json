@@ -1,0 +1,17 @@
+{
+  "name": "citepress",
+  "owner": { "name": "BULDRR AI", "url": "https://crm.citepress.org/integrations/ai" },
+  "metadata": { "description": "CitePress CRM and CitePress CMS for Claude." },
+  "plugins": [
+    {
+      "name": "citepress-crm",
+      "source": "./citepress-crm",
+      "description": "Work in CitePress CRM from Claude: contacts, email drafts, sales sequences, Lead Finder, and more where your plan allows."
+    },
+    {
+      "name": "citepress-cms",
+      "source": "./citepress-cms",
+      "description": "Write, edit and publish on your own CitePress CMS site from Claude."
+    }
+  ]
+}

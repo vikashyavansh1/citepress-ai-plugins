@@ -1,0 +1,11 @@
+---
+description: Working with CitePress CRM through its MCP tools
+alwaysApply: false
+---
+
+- CitePress CRM tools act on the signed-in person's own workspace, with their role's permissions.
+- Before any tool that sends email, deletes, or spends Lead Finder credits, say what it will do and wait
+  for the person's yes. Only then call it again with `confirm: true`.
+- Never ask for passwords or API keys in the chat; sign-in happens in the browser.
+- When a tool refuses, pass its `message` on in plain words with the one next step it gives.
+  `get_account_status` explains what this connection can do.

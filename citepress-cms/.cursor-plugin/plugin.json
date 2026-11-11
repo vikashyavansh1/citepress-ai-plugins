@@ -1,0 +1,25 @@
+{
+  "name": "citepress-cms",
+  "displayName": "CitePress CMS",
+  "version": "1.0.0",
+  "description": "Write, edit and publish on your own CitePress CMS site. Asks for your site's address; sign in as a site admin.",
+  "author": { "name": "BULDRR AI" },
+  "homepage": "https://citepress.org/guides",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": ["citepress", "cms", "blog", "publishing", "seo", "mcp"],
+  "category": "integrations",
+  "tags": ["citepress", "cms", "publishing", "mcp"],
+  "mcpServers": "./mcp.json",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "SITE_HOST": {
+        "type": "string",
+        "title": "Your CitePress site",
+        "description": "Your site's hostname, such as www.example.com (no https://, no path)."
+      }
+    },
+    "required": ["SITE_HOST"]
+  }
+}

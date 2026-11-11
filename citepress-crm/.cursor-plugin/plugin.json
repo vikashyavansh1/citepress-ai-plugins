@@ -1,0 +1,14 @@
+{
+  "name": "citepress-crm",
+  "displayName": "CitePress CRM",
+  "version": "1.0.0",
+  "description": "Find and add contacts, draft follow-up emails, start sales sequences and search Lead Finder in CitePress CRM. Sign in with your CitePress CRM account.",
+  "author": { "name": "BULDRR AI" },
+  "homepage": "https://crm.citepress.org/integrations/ai",
+  "license": "MIT",
+  "logo": ".claude-plugin/icon.png",
+  "keywords": ["citepress", "crm", "sales", "email", "contacts", "lead-generation", "mcp"],
+  "category": "integrations",
+  "tags": ["citepress", "crm", "sales", "mcp"],
+  "mcpServers": "./mcp.json"
+}

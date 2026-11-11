@@ -1,0 +1,10 @@
+---
+description: Working with a CitePress CMS site through its MCP tools
+alwaysApply: false
+---
+
+- CitePress CMS tools act on one site, with the signed-in admin's permissions.
+- Draft first; publish, schedule, delete or change many items only after the person says so, then send
+  `confirm: true` where the tool asks for it.
+- Never ask for passwords or tokens in the chat; sign-in happens in the browser.
+- If the site says its licence is needed for AI access, pass the message on as it is, link included.

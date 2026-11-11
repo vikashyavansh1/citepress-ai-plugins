@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "citepress-crm": {
+      "type": "http",
+      "url": "https://crm.citepress.org/api/mcp"
+    }
+  }
+}
